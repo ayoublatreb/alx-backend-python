@@ -1,4 +1,5 @@
- at the same time with async"""
+#!/usr/bin/env python3
+"""Execute multiple coroutines at the same time with async"""
 from typing import List
 import asyncio
 task_wait_random = __import__('3-tasks').task_wait_random
